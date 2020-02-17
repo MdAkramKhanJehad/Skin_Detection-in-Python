@@ -106,10 +106,3 @@ for i in range(10):
     avg += test.main(trained, randomIndex[i])
 
 print('\n\nFinal::: ', avg/1,'%')
-
-#
-# output = open('trainedTemp.pkl', 'wb')
-# pickle.dump(trained, output)
-# output.close()
-#
-# print("written in file")

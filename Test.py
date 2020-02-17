@@ -2,10 +2,6 @@ from PIL import Image
 import pickle, pprint
 
 
-# pkl_file = open("trained2.pkl", 'rb')
-# trained = pickle.load(pkl_file)
-# pkl_file.close()
-
 def calculateAccuracy(index):
     right = 0
     wrong = 0
@@ -79,4 +75,3 @@ def main(trained, index):
         testImg.save(img2)
     avrg  = calculateAccuracy(index)
     return avrg
-# print("image saved")
