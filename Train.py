@@ -104,8 +104,6 @@ for i in range(10):
     skin = [[[0 for col in range(256)] for row in range(256)] for x in range(256)]
     nonSkin = [[[0 for col2 in range(256)] for row2 in range(256)] for x2 in range(256)]
     trained = [[[0 for col3 in range(256)] for row3 in range(256)] for x3 in range(256)]
-
-    avg += test.main(trained, randomIndex[i])
     
 
 print('\n\nFinal::: ', avg/10,'%')
